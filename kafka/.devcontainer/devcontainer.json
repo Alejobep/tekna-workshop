@@ -6,6 +6,7 @@
 		"dockerfile": "Dockerfile",
 		"context": ".."
 	},
+	"features": { "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": true, "azureDnsAutoDetection": true, "installDockerBuildx": true, "version": "latest", "dockerDashComposeVersion": "v1" } },
 	"runArgs": [
 		"--network=tutorial"
 	]
